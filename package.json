@@ -1,0 +1,36 @@
+{
+  "name": "sf-html5-entities",
+  "description": "Simply fast encoding & decoding of HTML5 entities",
+  "version": "0.1.0",
+  "author": {
+    "name": "Muslim Idris",
+    "email": "gelamu@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "html",
+    "html5",
+    "entities",
+    "encoding",
+    "decoding"
+  ],
+  "scripts": {
+    "test": "cd test && ../node_modules/.bin/mocha --reporter spec"
+  },
+  "devDependencies": {
+    "mocha": ">= 1.11.x"
+  },
+  "engines": {
+    "node": ">= 0.4.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Muslim-Idris/node-sf-html5-entities"
+  },
+  "main": "./lib/sf-html5-entities.js",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/Muslim-Idris/node-sf-html5-entities/issues"
+  },
+  "homepage": "https://github.com/Muslim-Idris/node-sf-html5-entities"
+}
